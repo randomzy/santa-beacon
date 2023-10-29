@@ -7,6 +7,7 @@ mosquitto_build_config+=" -DWITH_STATIC_LIBRARIES=ON"
 mosquitto_build_config+=" -DWITH_SRV=OFF"
 mosquitto_build_config+=" -DWITH_BUNDLED_DEPS=ON"
 mosquitto_build_config+=" -DWITH_TLS=OFF"
+mosquitto_build_config+=" -DWITH_LIB_CPP=ON"
 
 build_dir="build"
 
