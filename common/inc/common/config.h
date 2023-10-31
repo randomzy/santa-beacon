@@ -2,6 +2,7 @@
 #define CONFIG_H_
 
 #define LED_COUNT (150)
+#define LED_PIN (10)
 #define HOST "127.0.0.1"
 #define PORT (1883)
 

@@ -8,3 +8,4 @@ add_subdirectory(controller)
 add_subdirectory(common)
 
 add_subdirectory(vendor/mosquitto)
+add_subdirectory(vendor/rpi_ws281x)

@@ -1,3 +1,6 @@
 [submodule "vendor/mosquitto"]
 	path = vendor/mosquitto
 	url = https://github.com/eclipse/mosquitto.git
+[submodule "vendor/rpi_ws281x"]
+	path = vendor/rpi_ws281x
+	url = https://github.com/jgarff/rpi_ws281x.git
