@@ -21,6 +21,7 @@ class Controller : public mosqpp::mosquittopp
     ~Controller()
     {
         std::cout << "destructor called" << std::endl;
+        disconnect();
         loop_stop();
     }
 
