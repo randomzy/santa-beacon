@@ -28,4 +28,10 @@ set(WITH_TLS              OFF CACHE INTERNAL "")
 set(WITH_LIB_CPP          ON  CACHE INTERNAL "")
 FetchContent_MakeAvailable(mosquitto)
 
-add_subdirectory(vendor/rpi_ws281x)
+FetchContent_Declare(
+    rpi_ws281x
+    GIT_REPOSITORY https://github.com/randomzy/rpi_ws281x.git
+    GIT_TAG 3be8495f337e0ba3c75d90f6c73b0d22f9c9ebf9
+)
+
+FetchContent_MakeAvailable(rpi_ws281x)
